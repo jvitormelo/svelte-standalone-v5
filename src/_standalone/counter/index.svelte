@@ -13,7 +13,7 @@
 </script>
 
 <div class="flex flex-col items-center rounded-lg bg-amber-100 p-8 shadow-lg">
-	<h2 class="mb-4 text-3xl font-bold text-amber-800">Retro Counter</h2>
+	<h2 class="mb-4 text-3xl font-bold text-amber-800">Counter</h2>
 	<div class="flex gap-4">
 		<button
 			on:click={decrement}
