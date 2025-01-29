@@ -4,6 +4,9 @@
 	let count = $state(0);
 
 	function increment() {
+		if (count % 10 === 0 && count !== 0) {
+			alert('Nice!');
+		}
 		count++;
 	}
 
